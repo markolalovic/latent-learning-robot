@@ -15,7 +15,7 @@ Reinforcement learning was shown to be faster in the extracted latent space and 
 
 
 ## How-to
-The Python script train-ae.py in scripts directory trains the deep autoencoder network using DMP weight vectors in csv format (examples in data directory) and saves transition matrices for encoding and decoding to and from latent space. 
+By running the Python script `train-ae.py` in `scripts` directory we can train the deep autoencoder network using DMP weight vectors. DMP weight vectors have to be in csv format (examples in data directory). The script then saves the transition matrices for encoding and decoding to and from latent space.
 
 Reinforcement learning algorithm (PoWER) can then be applied to modify the transformed DMP weights in latent space of the initial throw to reach the target.
 
