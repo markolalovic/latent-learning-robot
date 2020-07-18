@@ -9,7 +9,7 @@ The trajectories of motion of the robot were presented using dynamic movement pr
 
 Data set for training the autoencoder was generated in simulation. The data is a set of DMP weight vectors that define the appropriate robot movements that generate ball trajectories for a grid of targets:
 
-<img src="figures/generate_throws_opt_10_50.png" alt="Generated throws" width="300">
+<img src="figures/generate_throws_opt_10_50.png" alt="Generated throws" width="400">
 
 Reinforcement learning was shown to be faster in the extracted latent space and it generated more natural movements of the robotic arm [1].
 
