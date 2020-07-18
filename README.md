@@ -24,7 +24,7 @@ The simulation and execution was written in Matlab for this specific robot and t
 ### Example
 We can apply the same approach for a simple task of writing numbers:
 
-<img src="figures/write2-1.gif" alt="A simple task of writing numbers" width="500">
+<img src="figures/write2-1.gif" alt="A simple task of writing numbers" width="300">
 
 For implementation of DMPs we can use open source Python library: [pydmps](https://github.com/studywolf/pydmps)
 
@@ -38,7 +38,7 @@ For the simulation of a robotic arm we can use the simulation framework: [contro
 
 Then train the deep autoencoder network to extract the latent space for learning. We can start with initial simple movement of drawing a line, transform the DMP weights into latent space and apply reinforcement learning algorithm to reach a target drawing of the number:
 
-<img src="figures/write2-2.gif" alt="A simple task of writing numbers-2" width="500">
+<img src="figures/write2-2.gif" alt="A simple task of writing numbers-2" width="300">
 
 the euclidean distance between the generated curve and the target curve that represents the number was used as a reward function for PoWER reinforcement learning algorithm.
 
