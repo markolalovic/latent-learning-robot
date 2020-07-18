@@ -3,13 +3,14 @@ Deep autoencoder for robotic task learning in latent space
 
 A simple deep autoencoder network designed to demonstrate applicability in robotic task learning. The robot's task was to accurately throw a ball into the target using reinforcement learning. Mitsubishi PA-10 robot was used for the execution of the throw:
 
-![Demo: The execution of the throw with Mitsubishi PA-10 robot](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/PA-10_optimized.gif)
+![Demo: The execution of the throw with Mitsubishi PA-10 robot]
+(https://github.com/markolalovic/latent-learning-robot/tree/master/figures/PA-10_optimized.gif?raw=true)
 
 The trajectories of motion of the robot were presented using dynamic movement primitives (DMP). To reduce the dimensionality we ran a reinforcement learning algorithm in the latent space of the deep autoencoder network.
 
 Data set for training the autoencoder was generated in simulation. The data is a set of DMP weight vectors that define the appropriate robot movements that generate ball trajectories for a grid of targets:
 
-![generate_throws_opt_10_50.png](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/generate_throws_opt_10_50.png)
+![generate_throws_opt_10_50.png](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/generate_throws_opt_10_50.png?raw=true)
 
 Reinforcement learning was shown to be faster in the extracted latent space and it generated more natural movements of the robotic arm [1].
 
@@ -24,7 +25,7 @@ The simulation and execution was written in Matlab for this specific robot and t
 ### Example
 We can apply the same approach for a simple task of writing numbers:
 
-![Demo: A simple task of writing numbers](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/write2-1.gif)
+![Demo: A simple task of writing numbers](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/write2-1.gif?raw=true)
 
 For implementation of DMPs we can use open source Python library: [pydmps](https://github.com/studywolf/pydmps)
 
@@ -34,11 +35,11 @@ pip install pydmps
 
 For the simulation of a robotic arm we can use the simulation framework: [control](https://github.com/studywolf/control). First we need to generate a set of DMP weights vectors that define the appropriate robot movements that generate the numbers trajectories. The figure below is showing the set of generated trajectories for number 2:
 
-![generated_drawings-2.png](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/generated_drawings-2.png)
+![generated_drawings-2.png](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/generated_drawings-2.png?raw=true)
 
 Then train the deep autoencoder network to extract the latent space for learning. We can start with initial simple movement of drawing a line, transform the DMP weights into latent space and apply reinforcement learning algorithm to reach a target drawing of the number:
 
-![Demo: A simple task of writing numbers-2](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/write2-2.gif)
+![Demo: A simple task of writing numbers-2](https://github.com/markolalovic/latent-learning-robot/tree/master/figures/write2-2.gif?raw=true)
 
 the euclidean distance between the generated curve and the target curve that represents the number was used as a reward function for PoWER reinforcement learning algorithm.
 
