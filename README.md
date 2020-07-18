@@ -3,7 +3,7 @@ Deep autoencoder for robotic task learning in latent space
 
 A simple deep autoencoder network designed to demonstrate applicability in robotic task learning. The robot's task was to accurately throw a ball into the target using reinforcement learning. Mitsubishi PA-10 robot was used for the execution of the throw:
 
-<img src="figures/PA-10_optimized.gif" alt="The execution of the throw">
+<img src="figures/PA-10_optimized.gif" alt="The execution of the throw" width="200">
 
 The trajectories of motion of the robot were presented using dynamic movement primitives (DMP). To reduce the dimensionality we ran a reinforcement learning algorithm in the latent space of the deep autoencoder network.
 
