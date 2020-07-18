@@ -40,7 +40,7 @@ Then train the deep autoencoder network to extract the latent space for learning
 
 <img src="figures/write2-2.gif" alt="A simple task of writing numbers-2" width="400">
 
-the euclidean distance between the generated curve and the target curve that represents the number was used as a reward function for PoWER reinforcement learning algorithm.
+In this example the euclidean distance between the generated curve and the target curve that represents the number was used as a reward function for PoWER reinforcement learning algorithm.
 
 
 ## References
