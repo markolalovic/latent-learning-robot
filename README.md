@@ -22,11 +22,11 @@ Reinforcement learning algorithm (PoWER) can then be applied to modify the trans
 The simulation and execution was written in Matlab for this specific robot and this specific task. The same approach can be applied in general for different tasks.
 
 ### Example
-We can apply the same approach for a simple task of writing numbers:
+We can apply the same approach to a simple task of writing numbers:
 
 <img src="figures/write2-1.gif" alt="A simple task of writing numbers" width="400">
 
-For implementation of DMPs we can use open source Python library: [pydmps](https://github.com/studywolf/pydmps)
+For implementation of DMPs we can use the open source Python library: [pydmps](https://github.com/studywolf/pydmps)
 
 ```bash
 pip install pydmps
@@ -36,7 +36,7 @@ For the simulation of a robotic arm we can use the simulation framework: [contro
 
 <img src="figures/generated_drawings-2.png" alt="Generated drawings" width="400">
 
-Then train the deep autoencoder network to extract the latent space for learning. We can start with initial simple movement of drawing a line, transform the DMP weights into latent space and apply reinforcement learning algorithm to reach a target drawing of the number:
+Then train the deep autoencoder network to extract the latent space for learning. We can start with an initial simple movement of drawing a line, transform the DMP weights into latent space and apply reinforcement learning algorithm to reach a target drawing of the number:
 
 <img src="figures/write2-2.gif" alt="A simple task of writing numbers-2" width="400">
 
