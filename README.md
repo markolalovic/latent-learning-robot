@@ -44,6 +44,6 @@ In this example the euclidean distance between the generated curve and the targe
 
 
 ## References
-[1]: R. Pahič, Z. Lončarević, A. Ude, B. Nemec and A. Gams, "User Feedback in Latent Space Robotic Skill Learning," 2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids), Beijing, China, 2018, pp. 270-276, doi: 10.1109/HUMANOIDS.2018.8624972.
-[http://www.cs.columbia.edu/~allen/S19/learning_HITL_throwing_policy.pdf](http://www.cs.columbia.edu/~allen/S19/learning_HITL_throwing_policy.pdf)
+[1]: R. Pahič, Z. Lončarević, A. Gams and A. Ude, "Robot skill learning in latent space of a deep autoencoder neural network", Robotics and Autonomous Systems 135 (2021), doi: https://doi.org/10.1016/j.robot.2020.103690
+[https://www.sciencedirect.com/science/article/pii/S0921889020305303](https://www.sciencedirect.com/science/article/pii/S0921889020305303)
 
